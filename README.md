@@ -1,10 +1,26 @@
-# Club Deportivo Ricardo Méndez V32
+# Club Deportivo Ricardo Méndez V33
 
-Corrección aplicada:
-- Carga de imágenes directa y estable.
-- Al cargar fixture, historia, presidentes, noticia, foto/video, rival o auspiciador aparece mensaje de carga exitosa.
-- Si falta imagen o título, aparece mensaje de error.
-- Las imágenes se muestran inmediatamente en la web.
-- Se mantiene Supabase como respaldo online cuando esté conectado.
+Corrección:
+- Se corrigió el error 404 al abrir el administrador.
+- El admin ahora abre en dos rutas:
+  - /admin.html
+  - /admin/
+- Se agregó `vercel.json` para evitar problemas de ruta y caché en Vercel.
+- Se mantiene admin sin clave.
+- Se mantiene carga de imágenes con mensaje de carga exitosa.
 
-Admin: /admin.html
+IMPORTANTE PARA GITHUB:
+Subir TODOS los archivos y carpetas a la raíz del repositorio, incluyendo:
+- index.html
+- admin.html
+- carpeta admin/
+- script.js
+- styles.css
+- vercel.json
+- service-worker.js
+- imágenes y archivos restantes
+
+En Vercel prueba:
+https://TU-PROYECTO.vercel.app/admin.html
+o
+https://TU-PROYECTO.vercel.app/admin/
